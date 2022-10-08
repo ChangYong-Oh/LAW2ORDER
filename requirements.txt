@@ -1,0 +1,11 @@
+dill
+gpytorch==1.2.1
+multiprocess
+numpy
+pathos
+pymoo
+simanneal
+toposort
+torch==1.7.0
+torchvision==0.8.0
+tqdm
