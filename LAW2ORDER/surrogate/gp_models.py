@@ -9,7 +9,7 @@ import torch
 import gpytorch
 
 from LAW2ORDER.gpytorch_bop.kernels import NeuralKernelNetwork
-from BOonPermutation.gpytorch_bop.kernels.permutation_kernels import _ExponentialDistanceKernel
+from LAW2ORDER.gpytorch_bop.kernels.permutation_kernels import _ExponentialDistanceKernel
 
 ctx._force_start_method('spawn')
 OPTIMIZE_N_CORES_USED = 16

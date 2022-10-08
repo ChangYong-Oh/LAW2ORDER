@@ -195,7 +195,7 @@ def group_structure_exp(dirname, problem_list, alg_list):
 
 
 def plot_structure(structure_list: List[str], alg_list: List[str],
-                   dirname=os.path.join(os.path.split(EXP_DIR)[0], 'BOonPermutationDAG'),
+                   dirname=os.path.join(os.path.split(EXP_DIR)[0], 'LAW2ORDERDAG'),
                    which='main'):
     assert which in ['main', 'supp']
     exp_structure_group = group_structure_exp(dirname=dirname, problem_list=structure_list, alg_list=alg_list)
@@ -274,7 +274,7 @@ LABEL_COLOR_LIST = {'BUCB': ('BUCB', 'tab:gray'),
                     'GA': ('GA', 'teal')}
 BATCH_SIZE_LIST = [5, 10, 20]
 STD_SCALE = 1
-FIG_SAVE_DIR = os.path.join(REPO_DIR, 'BOonPermutation', 'experiments', 'figures')
+FIG_SAVE_DIR = os.path.join(REPO_DIR, 'LAW2ORDER', 'experiments', 'figures')
 
 if __name__ == '__main__':
     plot_benchmark_legend(alg_list=ALG_BENCHMARK_MAIN)
